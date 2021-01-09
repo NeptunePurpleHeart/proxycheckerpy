@@ -42,7 +42,7 @@ async def main():
         for i in input_data:
             r = await check(i)
             if r == True:
-                asyncio.run(proxy_speed(i))
+                await proxy_speed(i)
             print(i + " " + "checked")
         with open("result.txt", "w") as result:
             result.write(f"{check_site}\n")
