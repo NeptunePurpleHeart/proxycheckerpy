@@ -1,2 +1,3 @@
-# proxycheckertest
-Simple proxy cheker on python(it doesn`t work propably)
+# Proxy checker
+## WIP(may not work properly)
+Add your proxies to proxy_list.txt, separate them by \n, start the script 
